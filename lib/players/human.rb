@@ -3,6 +3,6 @@ module Players
    
    def current_player
     turn_count % 2 == 0 ? "X" : "O"
-  end
-  end
+  
+  Players::Human
 end
